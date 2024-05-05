@@ -1,0 +1,47 @@
+html {
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    padding: 10px 5px;
+    color: black;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+a:hover {
+    font-weight: bolder;
+    border-bottom: solid black 1.6px;
+}
+
+/* Introduction Page */
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.what-is-physics {
+    margin: 0px 5px;
+}
+
+.meaning-physics {
+    margin: 50px 20px;
+}
