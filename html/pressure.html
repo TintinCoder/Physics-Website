@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pressure</title>
+    <link rel="stylesheet" href="../styles/utility.css">
+    <link rel="stylesheet" href="../styles/pressure.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a class="b" href="../index.html">Introduction To Physics</a></li>
+            <li><a href="./force.html">Force - Types of Force</a></li>
+            <li><a href="/">Pressure</a></li>
+            <li><a href="/">Motion</a></li>
+            <li><a href="/">Graphs of Motion</a></li>
+            <li><a href="/">Equations of Motion</a></li>
+            <li><a href="/">Laws of Newton</a></li>
+            <li><a href="/">Gravtitation</a></li>
+            <li><a href="/">Archimedes</a></li>
+            <li><a href="/">Buoyancy</a></li>
+            <li><a href="/">Work</a></li>
+            <li><a href="/">Energy</a></li>
+            <li><a href="/">Power</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <h1 class="center">Pressure</h1>
+    <hr>
+
+    <div class="pressure">
+        <h2> - What is pressure?</h2>
+        <p>Pressure is defined as the force acting on an object per unit area.</p>
+        <br>
+        <h2> - Pressure is inversly proportional to the area of the object</h2>
+        <p>Pressure increases when the area decreases and pressure decreases when the area increases.
+            For example - A sharp knife can cut something easily as compared to a blunt knife as the area of sharp knife is very less and on the other hand the area of blunt knife is large.
+        </p>
+        <br>
+        <h2> - The SI unit of pressure is Pa(Pascal)</h2>
+        <br>
+        <h2> - Formula for Pressure</h2>
+        <p>The formula of pressure is force(N) per unit area(m²).
+            <br>
+            <math class="maths" xmlns="http://www.w3.org/1998/Math/MathML">
+                <mi>P</mi>
+                <mo>=</mo>
+                <mfrac>
+                    <mi>F</mi>
+                    <mi>A</mi>
+                </mfrac>
+            </math>
+        </p>
+    </div>
+
+    <div class="input-vals">
+        <hr>
+        <h1 class="center">Get the Pressure</h1>
+        <hr>
+        <div class="inputs">
+            <input type="number" placeholder="Force exerted on the body" id="force">
+            <input type="number" placeholder="Area of the body(in m²)" id="area">
+            <button class="get-ans" id="pressure-btn">Get the pressure</button>
+
+            <h2 id="pressreDisplay"></h2>
+        </div>
+    </div>
+</body>
+<script src="../javascript/pressure.js"></script>
+</html>

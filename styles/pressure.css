@@ -1,0 +1,39 @@
+.pressure {
+    margin: 10px 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 30vw;
+    height: 5vh;
+    padding: 10px;
+    margin: 10px ;
+    border: 1px solid black;
+}
+
+input::placeholder{
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+button {
+    width: 30vw;
+    height: 8.5vh;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
